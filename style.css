@@ -1,0 +1,47 @@
+.content {
+    max-width: 400px;
+    max-height: 600px;
+    margin: auto;
+    background-color: #928f8f;
+    height: 450px;
+    padding: 2%;
+    border: 1px solid;
+    margin-top: 30px;
+}
+h1 {
+    text-align: center;
+}
+input[type=text] {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=button] {
+    width: 17%;
+    height: 35px;
+    border: none;
+    float: right;
+}
+input[type=button]:hover{background-color: #ccc;}
+
+button, input[type=button] {cursor: pointer;}
+
+button {
+    float: right;
+    width: 25px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    height: 250px;
+    background-color: #fff;
+}
+li {
+    height: 25px;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid;
+    overflow-y: auto;
+}
